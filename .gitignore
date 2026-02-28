@@ -1,2 +1,5 @@
 **/data.tsv
 **/venv
+**/word2vec_custom
+**/*.pth
+**/*.pt
