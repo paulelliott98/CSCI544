@@ -1,0 +1,20 @@
+"""Tunable Hyperparameters"""
+EPOCHS = 20
+BATCH_SIZE = 16
+LEARNING_RATE = 0.1
+MOMENTUM = 0.9
+REDUCE_LR_FACTOR = 0.5
+REDUCE_LR_PATIENCE = 1
+REDUCE_LR_MODE = 'max'
+
+"""Constants"""
+PAD_IDX = 0
+UNK_IDX = 1
+CASE_EMBEDDING_DIM = 8
+
+"""Fixed Hyperparameters (Do not change)"""
+EMBEDDING_DIM = 100
+LSTM_LAYERS = 1
+LSTM_HIDDEN_DIM = 256
+LSTM_DROPOUT = 0.33
+LINEAR_OUTPUT_DIM = 128
